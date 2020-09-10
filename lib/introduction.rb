@@ -1,5 +1,3 @@
-def introduction(phrase, x)
-    x.times do
-        puts "phrase"
-    end
-end        
+def introduction(name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
+end
